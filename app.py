@@ -2,11 +2,11 @@ from flask import Flask, render_template, request
 import numpy as np
 import pickle
 
-diabetes_model = pickle.load(open(r'D:\Data_science_Projects\Multipel-Disease-Prediction-Using-Flask\Multiple-Disease-Prediction-Using-Flask\models\diabetes.pkl', 'rb'))
-cancer_model = pickle.load(open(r'D:\Data_science_Projects\Multipel-Disease-Prediction-Using-Flask\Multiple-Disease-Prediction-Using-Flask\models\cancer.pkl', 'rb'))
-heart_model = pickle.load(open(r'D:\Data_science_Projects\Multipel-Disease-Prediction-Using-Flask\Multiple-Disease-Prediction-Using-Flask\models\heart.pkl', 'rb'))
-liver_model = pickle.load(open(r'D:\Data_science_Projects\Multipel-Disease-Prediction-Using-Flask\Multiple-Disease-Prediction-Using-Flask\models\liver.pkl', 'rb'))
-kidney_model = pickle.load(open(r'D:\Data_science_Projects\Multipel-Disease-Prediction-Using-Flask\Multiple-Disease-Prediction-Using-Flask\models\kidney.pkl', 'rb'))
+diabetes_model = pickle.load(open('models/diabetes.pkl', 'rb'))
+cancer_model = pickle.load(open('models/cancer.pkl', 'rb'))
+heart_model = pickle.load(open('models/heart.pkl', 'rb'))
+liver_model = pickle.load(open('models/liver.pkl', 'rb'))
+kidney_model = pickle.load(open('models/kidney.pkl', 'rb'))
 
 app = Flask(__name__)
 

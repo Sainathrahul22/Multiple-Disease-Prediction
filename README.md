@@ -20,6 +20,8 @@
 
 > Don't forgot to star this repository. ⭐
 
+> This project was adapted by Sainath Rahul.
+
 ## Our website can test the following diseases:-
 1) Diabetes : 97% accurate
 2) Heart : 83.61% accurate
