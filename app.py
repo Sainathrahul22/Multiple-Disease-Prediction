@@ -144,17 +144,6 @@ def predict():
             data1 = np.array(data).reshape(1,-1)
             my_prediction  = cancer_model.predict(data1)
             return render_template('predict.html', prediction=my_prediction)
-
-
-
-
-
-
-
-
-
-
-
-
+        
 if __name__ == "__main__":
     app.run(debug=True)
